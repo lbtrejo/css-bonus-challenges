@@ -79,3 +79,32 @@ h1, h2, h3, h4 {
     padding: .75em 1em;
     border: none;
 }
+.main-content-1, .main-content-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.main-content-1 {
+    margin-top: 2.5em;
+}
+section>h2 {
+    font-size: 1.75em;
+    margin: 1em 0;
+}
+section>p {
+    margin: 1em 0;
+    font-weight: 400;
+}
+section>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small {
+    color: #787272;
+    font-size: .75em;
+}
+.main-icon {
+    color: #dc5041;
+    padding: .5em 0;
+}
