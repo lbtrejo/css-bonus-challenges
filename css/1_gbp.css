@@ -40,7 +40,7 @@ nav ul {
 }
 nav ul li a {
     display: flex;
-    height: 2.5em;
+    height: 2em;
     padding: 1em;
     font-size: 1em;
     color: black;
@@ -55,9 +55,9 @@ nav ul li a {
 .main-logo {
     color: white;
     text-align: center;
-    height: 75VH;
+    height: 40VH;
     padding: 3em 2em;
-    margin-top: 2.5em;
+    margin-top: 2em;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -84,9 +84,6 @@ h1, h2, h3, h4 {
     flex-direction: column;
     padding: 1em;
 }
-.main-content-1 {
-    margin-top: 2.5em;
-}
 section>h2 {
     font-size: 1.75em;
     margin: 1em 0;
@@ -107,4 +104,24 @@ section>div {
 .main-icon {
     color: #dc5041;
     padding: .5em 0;
+}
+.qotd {
+    height: 20VH;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+footer {
+    height: 25VH;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1em;
+}
+.footer-links {
+    color: #646565;
+    text-decoration: underline;
 }
