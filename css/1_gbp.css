@@ -29,6 +29,8 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    position: fixed;
+    top: 0;
     /*box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);*/
     /*position: relative;*/
     /*z-index: 1;*/
@@ -37,13 +39,43 @@ nav ul {
     list-style: none;
 }
 nav ul li a {
-    display: inline-block;
-    height: 3em;
+    display: flex;
+    height: 2.5em;
     padding: 1em;
-    font-size: 2em;
+    font-size: 1em;
     color: black;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
+    font-weight: 400;
 }
 .hidden-on-desktop {
     color: white;
+}
+.main-logo {
+    color: white;
+    text-align: center;
+    height: 75VH;
+    padding: 3em 2em;
+    margin-top: 2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.main-logo>h1 {
+    font-size: 3em;
+    /*font-weight: 300;*/
+}
+.main-logo>button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: white;
+    background-color: black;
+    padding: .75em 1em;
+    border: none;
 }
