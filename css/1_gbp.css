@@ -143,4 +143,13 @@ footer {
     .hidden-on-desktop {
         display: none;
     }
+    .main-content-1 h2, .main-content-1 p {
+        width: 50%;
+    }
+    .main-content-1 i {
+        display: inline;
+    }
+    .main-content-1 {
+        flex-wrap: wrap;
+    }
 }
